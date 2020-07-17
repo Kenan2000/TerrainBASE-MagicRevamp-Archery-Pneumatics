@@ -7,7 +7,7 @@
 	"count": 40,
 	"ammo_type": "bolt",
 	"loudness": 0,
-	"damage": { "damage_type": "stab", "constant_damage_multiplier": 1.60, "armor_penetration": 10  },
+	"damage": { "damage_type": "stab", "constant_damage_multiplier": 1.40, "armor_penetration": 9  },
 	"dispersion": 250,
 	"critical_multiplier": 2,
     "effects": [ "RECOVER_2" ]
@@ -20,7 +20,7 @@
 	"count": 40,
 	"ammo_type": "bolt",
 	"loudness": 0,
-	"damage": { "damage_type": "stab", "constant_damage_multiplier": 1.70, "armor_penetration": 12  },
+	"damage": { "damage_type": "stab", "constant_damage_multiplier": 1.50, "armor_penetration": 11  },
 	"dispersion": 480,
 	"critical_multiplier": 2,
     "effects": [ "RECOVER_6" ]
@@ -33,7 +33,7 @@
 	"count": 40,
 	"ammo_type": "bolt",
 	"loudness": 0,
-	"damage": { "damage_type": "stab", "armor_penetration": 14, "constant_damage_multiplier": 1.85 },
+	"damage": { "damage_type": "stab", "armor_penetration": 14, "constant_damage_multiplier": 1.65 },
     "dispersion": 480,
 	"critical_multiplier": 2,
     "effects": [ "RECOVER_8" ]
@@ -47,7 +47,7 @@
 	"count": 40,
 	"ammo_type": "bolt",
 	"loudness": 0,
-	"damage": { "damage_type": "stab", "constant_damage_multiplier": 1.95, "armor_penetration": 14 },
+	"damage": { "damage_type": "stab", "constant_damage_multiplier": 1.72, "armor_penetration": 14 },
 	"dispersion": 440,
     "critical_multiplier": 2,
     "effects": [ "RECOVER_25" ]
@@ -60,7 +60,7 @@
 	"count": 40,
 	"ammo_type": "bolt",
 	"loudness": 0,
-	"damage": { "damage_type": "stab", "constant_damage_multiplier": 2.00, "armor_penetration": 16 },
+	"damage": { "damage_type": "stab", "constant_damage_multiplier": 1.80, "armor_penetration": 16 },
 	"dispersion": 400,
     "critical_multiplier": 2,
     "effects": [ "RECOVER_30" ]
@@ -73,7 +73,7 @@
 	"count": 40,
 	"ammo_type": "bolt",
 	"loudness": 0,
-	"damage": { "damage_type": "stab", "constant_damage_multiplier": 2.20, "armor_penetration": 19 },
+	"damage": { "damage_type": "stab", "constant_damage_multiplier": 1.95, "armor_penetration": 19 },
 	"dispersion": 400,
     "critical_multiplier": 2,
     "effects": [ "RECOVER_20" ]
@@ -86,7 +86,7 @@
 	"count": 40,
 	"ammo_type": "bolt",
 	"loudness": 0,
-	"damage": { "damage_type": "stab", "constant_damage_multiplier": 2.30, "armor_penetration": 20 },
+	"damage": { "damage_type": "stab", "constant_damage_multiplier": 2.05, "armor_penetration": 20 },
 	"dispersion": 70,
     "critical_multiplier": 2,
     "effects": [ "RECOVER_35" ]
@@ -99,7 +99,7 @@
 	"count": 40,
 	"ammo_type": "bolt",
 	"loudness": 0,
-	"damage": { "damage_type": "stab", "constant_damage_multiplier": 2.40, "armor_penetration": 25 },
+	"damage": { "damage_type": "stab", "constant_damage_multiplier": 2.15, "armor_penetration": 25 },
 	"dispersion": 65,
     "critical_multiplier": 2,
     "effects": [ "RECOVER_40" ]
@@ -125,7 +125,7 @@
 	"count": 40,
 	"ammo_type": "bolt",
 	"loudness": 0,
-	"damage": { "damage_type": "stab", "constant_damage_multiplier": 2.75, "armor_penetration": 30 },
+	"damage": { "damage_type": "stab", "constant_damage_multiplier": 2.35, "armor_penetration": 30 },
     "dispersion": 60,
     "critical_multiplier": 2,
     "effects": [ "RECOVER_30" ]
@@ -135,7 +135,7 @@
 	"copy-from": "bullet_crossbow",
 	"name": { "str": "bullet crossbow" },
 	"type": "GUN",
-    "ranged_damage": { "damage_type": "stab", "amount": 12 }
+    "ranged_damage": { "damage_type": "stab", "amount": 8 }
  },
  {
 	"id": "hand_crossbow",
@@ -143,7 +143,7 @@
 	"type": "GUN",
 	"name": { "str": "pistol crossbow" },
     "description": "A small concealable pistol-like crossbow.  It's weak due to its small size and draw, so it is best suited for hunting small game.  Bolts fired from this weapon have a good chance of remaining intact for re-use.",
-	"ranged_damage": { "damage_type": "stab", "amount": 19 }
+	"ranged_damage": { "damage_type": "stab", "amount": 14 }
  },
  {
 	"id": "crossbow",
@@ -152,7 +152,7 @@
 	"name": { "str": "crossbow" },
     "description": "A slow-loading hand weapon that launches bolts.  Stronger people can reload it much faster.  Bolts fired from this weapon have a good chance of remaining intact for re-use.",
 	"min_strength": 8,
-    "ranged_damage": { "damage_type": "stab", "amount": 25 }
+    "ranged_damage": { "damage_type": "stab", "amount": 19 }
  },
  {
 	"id": "compositecrossbow",
@@ -161,7 +161,7 @@
 	"name": { "str": "composite crossbow" },
     "description": "A slightly larger, more powerful crossbow utilizing composite material limbs and somewhat more modern design practices.",
 	"min_strength": 9,
-    "ranged_damage": { "damage_type": "stab", "amount": 30 }
+    "ranged_damage": { "damage_type": "stab", "amount": 24 }
  },
  {
 	"id": "compcrossbow",
@@ -170,7 +170,7 @@
 	"name": { "str": "compound crossbow" },
     "description": "A high-power crossbow with shaped cams and extra cables for high-power shots.  Takes less time to reload due to a modern string-pulling system.",
 	"min_strength": 7,
-    "ranged_damage": { "damage_type": "stab", "amount": 36 }
+    "ranged_damage": { "damage_type": "stab", "amount": 29 }
  },
  {
 	"id": "huge_crossbow",
@@ -178,7 +178,7 @@
 	"type": "GUN",
 	"name": { "str": "heavy crossbow" },
     "description": "A HUGE medieval crossbow from Germany with a very slow, difficult reloading process not suited for unskilled users.  Its tension is so powerful that you feel it shake after firing.  Bolts fired from this weapon have a good chance of remaining intact for re-use.",
-	"ranged_damage": { "damage_type": "stab", "amount": 40 }
+	"ranged_damage": { "damage_type": "stab", "amount": 33 }
  },
  {
 	"id": "rep_crossbow",
