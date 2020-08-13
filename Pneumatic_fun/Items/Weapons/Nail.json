@@ -1,5 +1,5 @@
 [
- {
+  {
     "id": "coilgun",
     "copy-from": "coilgun",
     "looks_like": "ar15",
@@ -30,7 +30,7 @@
       [ "rail mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-     "pocket_data": [
+    "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
         "holster": true,
@@ -41,7 +41,7 @@
     ]
   },
   {
-	"id": "nailrifle",
+    "id": "nailrifle",
     "copy-from": "nailgun",
     "looks_like": "ar15",
     "type": "GUN",
