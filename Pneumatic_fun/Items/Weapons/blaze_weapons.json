@@ -10,7 +10,7 @@
     "price": 350000,
     "to_hit": -3,
     "bashing": 6,
-    "material": "steel",
+    "material": [ "steel" ],
     "symbol": "(",
     "color": "dark_gray",
     "ammo": "bolt",
@@ -25,7 +25,7 @@
     "magazines": [ [ "bolt", [ "bolt_hopper" ] ] ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
   },
-   {
+  {
     "id": "nailer",
     "type": "GUN",
     "reload_noise_volume": 10,
@@ -172,7 +172,7 @@
     "price": 155000,
     "to_hit": -3,
     "bashing": 6,
-    "material": "steel",
+    "material": [ "steel" ],
     "symbol": "(",
     "color": "light_gray",
     "ammo": "pebble",

@@ -1,5 +1,5 @@
 [
- {
+  {
     "id": "nailmag",
     "looks_like": "stanag30",
     "copy-from": "nailmag",
@@ -9,9 +9,9 @@
     "weight": "60 g",
     "volume": "250 ml",
     "price": 1920,
-    "material": "steel",
+    "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
     "ammo_type": "nail"
- }
+  }
 ]
